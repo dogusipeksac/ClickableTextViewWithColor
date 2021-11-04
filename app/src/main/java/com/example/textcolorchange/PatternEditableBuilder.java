@@ -15,7 +15,6 @@ import java.util.regex.Pattern;
 /*
      Create clickable spans within a TextView
      made easy with pattern matching!
-     Created by: Nathan Esquenazi
      Usage 1: Apply spannable strings to a TextView based on pattern
         new PatternEditableBuilder().
            addPattern(Pattern.compile("\\@(\\w+)")).
